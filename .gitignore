@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# runtime data (must never be committed)
+data/
+tmp-*/
+*.log
+
+# secrets
+.env
+.env.*
+*.secret
+credentials.json
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
