@@ -1,0 +1,14 @@
+{
+  "name": "tp1003",
+  "version": "0.1.0",
+  "private": true,
+  "description": "tp1003 - realtime event push service over SSE (Node.js, zero dependencies)",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
